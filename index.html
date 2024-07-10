@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Florian - nairol203</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="tailwind.config.js"></script>
+		<script src="projects.js" defer></script>
+		<style type="text/tailwindcss">
+			@tailwind base;
+			@tailwind components;
+			@tailwind utilities;
+
+			@layer base {
+				:root {
+					color-scheme: light dark;
+				}
+
+				body {
+					@apply bg-background dark:bg-darkMode-background text-text dark:text-darkMode-text;
+				}
+
+				h1,
+				.h1 {
+					@apply font-sans text-2xl font-bold;
+				}
+
+				h2,
+				.h2 {
+					@apply font-sans text-xl font-bold;
+				}
+
+				h3,
+				.h3 {
+					@apply font-sans text-lg font-bold;
+				}
+
+				h4,
+				.h4 {
+					@apply font-sans text-base font-bold;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<main class="max-w-7xl mx-auto min-h-screen">
+			<div class="grid gap-10 xl:gap-12 2xl:gap-16 mx-4 mt-6">
+				<header class="grid sm:flex sm:justify-between gap-4 md:gap-6 lg:gap-8 bg-secondary dark:bg-darkMode-secondary p-6 md:p-8 rounded-3xl">
+					<div class="flex flex-col gap-4 justify-center">
+						<h1 class="text-5xl sm:text-6xl md:text-7xl xl:text-8xl mt-2">
+							Welcome.
+							<br />
+							I&apos;m Florian.
+						</h1>
+						<p class="text-xl md:text-2xl">IT specialist and Hobby Developer.</p>
+					</div>
+					<div class="flex sm:flex-col gap-4 justify-end items-end">
+						<a
+							class="flex items-center justify-center p-2.5 rounded-full md:hover:bg-accent dark:md:hover:bg-darkMode-accent transition-colors duration-200"
+							href="https://discord.com/users/255739211112513536"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img src="/public/logos/socials/discord.svg" alt="Discord Logo" width="24" height="24" class="dark:invert aspect-square" />
+						</a>
+						<a
+							class="flex items-center justify-center p-2.5 rounded-full md:hover:bg-accent dark:md:hover:bg-darkMode-accent transition-colors duration-200"
+							href="https://twitter.com/nairol203"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img src="/public/logos/socials/x.svg" alt="X / Twitter Logo" width="24" height="24" class="dark:invert aspect-square" />
+						</a>
+						<a
+							class="flex items-center justify-center p-2.5 rounded-full md:hover:bg-accent dark:md:hover:bg-darkMode-accent transition-colors duration-200"
+							href="https://github.com/nairol203"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img src="/public/logos/socials/github.svg" alt="Github Logo" width="24" height="24" class="dark:invert aspect-square" />
+						</a>
+					</div>
+				</header>
+				<section class="grid gap-6">
+					<h2 class="text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl">My Stack.</h2>
+					<div class="grid grid-cols-2 sm:flex gap-2 flex-wrap">
+						<a
+							class="flex justify-between items-center gap-4 bg-secondary dark:bg-darkMode-secondary py-2 px-4 md:py-4 md:px-6 rounded-full shadow md:hover:bg-accent dark:md:hover:bg-darkMode-accent md:hover:text-darkMode-text transition-colors duration-200"
+							href="https://www.typescriptlang.org/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<h3 class="text-xl overflow-hidden text-ellipsis whitespace-nowrap">Typescript</h3>
+							<div class="relative h-10 w-10 sm:h-16 sm:w-16">
+								<img src="/public/logos/typescript.svg" alt="Typescript Logo" class="aspect-square rounded" style="width: 100%; height: 100%" />
+							</div>
+						</a>
+						<a
+							class="flex justify-between items-center gap-4 bg-secondary dark:bg-darkMode-secondary py-2 px-4 md:py-4 md:px-6 rounded-full shadow md:hover:bg-accent dark:md:hover:bg-darkMode-accent md:hover:text-darkMode-text transition-colors duration-200"
+							href="https://nextjs.org/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<h3 class="text-xl overflow-hidden text-ellipsis whitespace-nowrap">Next.js</h3>
+							<div class="relative h-10 w-10 sm:h-16 sm:w-16">
+								<img src="/public/logos/nextjs.svg" alt="Next.js Logo" class="aspect-square rounded" style="width: 100%; height: 100%" />
+							</div>
+						</a>
+						<a
+							class="flex justify-between items-center gap-4 bg-secondary dark:bg-darkMode-secondary py-2 px-4 md:py-4 md:px-6 rounded-full shadow md:hover:bg-accent dark:md:hover:bg-darkMode-accent md:hover:text-darkMode-text transition-colors duration-200"
+							href="https://tailwindcss.com/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<h3 class="text-xl overflow-hidden text-ellipsis whitespace-nowrap">TailwindCSS</h3>
+							<div class="relative h-10 w-10 sm:h-16 sm:w-16">
+								<img src="/public/logos/tailwind.svg" alt="TailwindCSS Logo" class="aspect-square rounded" style="width: 100%; height: 100%" />
+							</div>
+						</a>
+						<a
+							class="flex justify-between items-center gap-4 bg-secondary dark:bg-darkMode-secondary py-2 px-4 md:py-4 md:px-6 rounded-full shadow md:hover:bg-accent dark:md:hover:bg-darkMode-accent md:hover:text-darkMode-text transition-colors duration-200"
+							href="https://orm.drizzle.team/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<h3 class="text-xl overflow-hidden text-ellipsis whitespace-nowrap">DrizzleORM</h3>
+							<div class="relative h-10 w-10 sm:h-16 sm:w-16">
+								<img src="/public/logos/drizzle.svg" alt="DrizzleORM Logo" class="aspect-square rounded" style="width: 100%; height: 100%" />
+							</div>
+						</a>
+					</div>
+				</section>
+				<section class="grid gap-3 md:gap-6">
+					<h2 class="text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl">My Projects.</h2>
+					<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-2" id="project-card-container"></div>
+				</section>
+				<section class="grid justify-center gap-8 mt-10 mb-20">
+					<h2 class="text-5xl sm:text-6xl text-center">My Socials.</h2>
+					<div class="flex justify-center gap-4">
+						<a
+							class="flex items-center justify-center p-2.5 rounded-full md:hover:bg-accent dark:md:hover:bg-darkMode-accent transition-colors duration-200"
+							href="https://discord.com/users/255739211112513536"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img src="/public/logos/socials/discord.svg" width="30" height="30" alt="Discord Logo" class="dark:invert aspect-square" />
+						</a>
+						<a
+							class="flex items-center justify-center p-2.5 rounded-full md:hover:bg-accent dark:md:hover:bg-darkMode-accent transition-colors duration-200"
+							href="https://twitter.com/nairol203"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img src="/public/logos/socials/x.svg" width="30" height="30" alt="X Logo" class="dark:invert aspect-square" />
+						</a>
+						<a
+							class="flex items-center justify-center p-2.5 rounded-full md:hover:bg-accent dark:md:hover:bg-darkMode-accent transition-colors duration-200"
+							href="https://github.com/nairol203"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img src="/public/logos/socials/github.svg" width="30" height="30" alt="Github Logo" class="dark:invert aspect-square" />
+						</a>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="flex items-center justify-center gap-3 p-4 mt-16">
+			<img src="/public/logo.png" alt="Logo" width="32" height="32" />
+			<a href="/" class="hover:underline">© 2024 nairol203</a>
+		</footer>
+	</body>
+</html>
