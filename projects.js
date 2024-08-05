@@ -99,7 +99,7 @@ const projects = [
 		url: 'https://bus.nairol.me',
 		github_url: 'https://github.com/nairol203/bus-tracker',
 		thumbnails: {
-			light: '/public/tailwindConfigthumbnails/bus-tracker-thumbnail-light.avif',
+			light: '/public/thumbnails/bus-tracker-thumbnail-light.avif',
 			dark: '/public/thumbnails/bus-tracker-thumbnail-dark.avif',
 		},
 	},
