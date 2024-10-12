@@ -58,8 +58,8 @@ export const projects = [
 	},
 	{
 		name: "Amazon Scraper",
-		description: "Amazon Scraper can run on a Rasperry Pi and scrapes prices from Amazon, which are stored in a Prisma Database, hosted on Planetscale. ",
-		tags: ["Typescript", "Prisma"],
+		description: "Amazon Scraper can run on a Rasperry Pi and scrapes prices from Amazon, which are stored in a Drizzle Database",
+		tags: ["Typescript", "Drizzle"],
 		repository_url: "https://github.com/nairol203/amazon-scraper"
 	},
 	{
