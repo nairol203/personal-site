@@ -6,7 +6,7 @@ export default function Footer() {
 		<footer className='flex items-center justify-center gap-3 p-4 mt-16'>
 			<Image src='/logo.png' alt='Logo' width={32} height={32} />
 			<Link href='/' className='hover:underline'>
-				© 2024 nairol203
+				© 2025 nairol203
 			</Link>
 		</footer>
 	);
