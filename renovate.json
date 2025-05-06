@@ -8,5 +8,8 @@
       "matchManagers": ["npm"],
       "enabled": false
     }
-  ]
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
 }
