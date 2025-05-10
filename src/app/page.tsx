@@ -22,11 +22,11 @@ export default function Page() {
 				<div className='flex sm:flex-col gap-4 justify-end items-end'>
 					<a
 						className='flex items-center justify-center p-2.5 rounded-full md:hover:bg-accent dark:md:hover:bg-darkMode-accent transition-colors duration-200'
-						href='https://discord.com/users/255739211112513536'
+						href='https://www.reddit.com/user/nairol203'
 						target='_blank'
 						rel='noreferrer'
 					>
-						<Image src='/logos/socials/discord.svg' width={24} height={24} alt='Discord Logo' className='dark:invert aspect-square' />
+						<Image src='/logos/socials/reddit.svg' width={24} height={24} alt='Reddit Logo' className='dark:invert aspect-square' />
 					</a>
 					<a
 						className='flex items-center justify-center p-2.5 rounded-full md:hover:bg-accent dark:md:hover:bg-darkMode-accent transition-colors duration-200'
@@ -103,11 +103,11 @@ export default function Page() {
 				<div className='flex justify-center gap-4'>
 					<a
 						className='flex items-center justify-center p-2.5 rounded-full md:hover:bg-accent dark:md:hover:bg-darkMode-accent transition-colors duration-200'
-						href='https://discord.com/users/255739211112513536'
+						href='https://www.reddit.com/user/nairol203'
 						target='_blank'
 						rel='noreferrer'
 					>
-						<Image src='/logos/socials/discord.svg' width={30} height={30} alt='Discord Logo' className='dark:invert aspect-square' />
+						<Image src='/logos/socials/reddit.svg' width={30} height={30} alt='Reddit Logo' className='dark:invert aspect-square' />
 					</a>
 					<a
 						className='flex items-center justify-center p-2.5 rounded-full md:hover:bg-accent dark:md:hover:bg-darkMode-accent transition-colors duration-200'
