@@ -1,4 +1,4 @@
-FROM docker.io/nginxinc/nginx-unprivileged:stable-alpine@sha256:7377697a821c131a924a7105fafbe7414db4e9fcc77a6f08f776f33f141ec3f8
+FROM docker.io/nginxinc/nginx-unprivileged:stable-alpine@sha256:9d4ab2b70ec4b86e8576f783066d178d4725dc8c4b3bd060cb09f6d058ba9291
 
 WORKDIR /usr/share/nginx/html
 
