@@ -2,6 +2,6 @@ FROM docker.io/nginxinc/nginx-unprivileged:stable-alpine@sha256:9d4ab2b70ec4b86e
 
 WORKDIR /usr/share/nginx/html
 
-COPY . /usr/share/nginx/html
+COPY ./public/ /usr/share/nginx/html
 
 EXPOSE 8080
